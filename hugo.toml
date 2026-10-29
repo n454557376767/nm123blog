@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = "https://n454557376767.github.io/nm123blog/"
 locale = 'zh-cn'
 title = 'nm123 的博客'
 theme = "jijian"
