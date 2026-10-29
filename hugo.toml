@@ -1,3 +1,4 @@
 baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+locale = 'zh-cn'
+title = 'nm123 的博客'
+theme = "jijian"
