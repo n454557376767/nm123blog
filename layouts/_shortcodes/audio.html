@@ -1,0 +1,8 @@
+{{ $src := .Get "src" }}
+{{ if hasPrefix $src "http" }}
+  <audio controls preload="auto" src="{{ $src }}"></audio>
+{{ else }}
+  {{ with resources.Get $src }}
+    <audio controls preload="auto" src="{{ .RelPermalink }}"></audio>
+  {{ end }}
+{{ end }}
