@@ -2,6 +2,5 @@ baseURL = "https://n454557376767.github.io/nm123blog/"
 locale = 'zh-cn'
 title = 'nm123 的博客'
 theme = "jijian"
-enableGitInfo = true
 [frontmatter]
-  lastmod = [':git', 'lastmod', ':fileModTime', 'date', 'publishDate']
+lastmod = ["lastmod", ":git", "date", "publishDate"]
