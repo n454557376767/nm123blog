@@ -4,4 +4,4 @@ title = 'nm123 的博客'
 theme = "jijian"
 enableGitInfo = true
 [frontmatter]
-  lastmod = [':git', 'lastmod', ':fileModTime', 'date', 'publishDate']
+  lastmod = ['lastmod', ':fileModTime']
